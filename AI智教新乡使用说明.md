@@ -1,0 +1,10 @@
+# AI智教新乡使用说明
+
+***\*系统硬件环境\****IOS或 Android系统移动端设备，如手机、平板等
+
+***\*系统软件环境\****：操作系统：IOS或Android    网络环境：移动网络或WiFi    运行平台：微信APP
+
+小程序完整版请扫码体验：
+
+![image-20250414211252688](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20250414211252688.png)
+如果有问题请联系我 
