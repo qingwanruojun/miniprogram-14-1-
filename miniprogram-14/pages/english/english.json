@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "语通未来", 
+  "navigationBarBackgroundColor": "#50C878",
+  "enablePullDownRefresh": true,   
+  "backgroundTextStyle": "light" 
+}

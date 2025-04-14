@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "如何应对压力", 
+  "navigationBarBackgroundColor": "#FF5511",
+  "enablePullDownRefresh": true,   
+  "backgroundTextStyle": "light" 
+}

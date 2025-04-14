@@ -1,0 +1,131 @@
+page{
+  background-image:url("https://pic1.imgdb.cn/item/67f006aa0ba3d5a1d7ed6c7c.jpg");
+  background-repeat:repeat-y;
+  background-size:cover;
+  background: position 0vh;
+  background-attachment:scroll;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  padding: 20rpx;
+}
+
+.picture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 20rpx 5rpx 0rpx 0rpx;
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+  border-radius:50%;
+}
+
+.message-list {
+  flex: 1;
+  padding: 10rpx;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  margin-top: -15px;
+}
+
+.message-item {
+  display: flex;
+  margin-bottom: 10rpx;
+}
+.user .message-item {
+  justify-content: flex-end;
+}
+
+.bot .message-item {
+  justify-content: flex-start;
+}
+
+.message-content {
+  padding: 10rpx;
+  border-radius: 10rpx;
+  /* max-width: 80%; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.message-text {
+  margin-top: 50rpx;
+  width: 100%;
+  /* background-color: rgba(255, 240, 195, 0.90); */
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 26rpx;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 15rpx;
+  font-family: cursive;
+  background-color: rgba(255, 240, 195, 0.90);
+}
+
+.user {
+  align-self: flex-end;
+  background-color: rgb(208,185,144);
+}
+
+.bot {
+  align-self: flex-start;
+  background-color: rgba(255, 240, 195, 0.90);
+}
+
+.bottom{
+  display: flex;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  bottom: 0;
+  border: 1px solid rgb(111 99 99);
+  background-color: rgb(255, 240, 195);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.input {
+  flex: 1;
+  /* min-width: 80%; */
+  height: 80rpx;
+  font-size: large;
+  border-radius: 10px;
+  padding-left: 20rpx;
+  background-color: rgb(208,185,144);
+  margin-left: 5%;
+  margin-right: 1%;
+}
+
+.send-button {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 10px;
+  margin-left: 6px;
+  background-color: rgb(208,185,144);
+  margin-right: 4%;
+}
+.send-button:active{
+  background-color: rgb(204, 175, 124);
+}

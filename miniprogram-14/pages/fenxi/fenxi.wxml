@@ -1,0 +1,46 @@
+<view class="container">
+  <!-- 滚动消息区域 -->
+  <scroll-view class="message-list" scroll-y="true" scroll-into-view="{{scrollIntoView}}">
+    <view class="message-content">
+      <view class="picture">
+        <image src="https://pic1.imgdb.cn/item/67ef83b80ba3d5a1d7ece371.png" class="logo"></image>
+      </view>
+      <text space="nbsp" class="message-text bot">小朋友你好，我是你的成绩分析小助手，这里可以帮你提高成绩！请提出问题如：
+1、如何系统提高数学成绩？
+2、如何减少考试粗心错误？
+3、考试紧张导致发挥失常如何调整？
+4、还有其他问题也欢迎向我咨询，但是可能需要一定等待时间</text>
+    </view>
+
+    <!-- 消息循环显示 -->
+    <view class="message-item" wx:for="{{messages}}" wx:key="index">
+      <view class="message-content">
+        <view class="picture">
+          <!-- 判断是否为机器人消息，如果是，则显示相同的 logo 图片 -->
+          <image src="{{item.type === 'bot' ? 'https://pic1.imgdb.cn/item/67ef83b80ba3d5a1d7ece371.png' : '/images/' + item.type + '.png'}}" class="logo"></image>
+        </view>
+        <!-- 判断消息内容 -->
+        <view class="message-text {{item.type}}">
+          {{ item.content == '回答需要一定时间，请耐心等待' ? load[currentIndex] : item.content }}
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+
+  <!-- 输入框区域 -->
+  <view class="bottom">
+    <view class="input-container">
+      <input 
+        class="input" 
+        placeholder="在此处输入您的问题" 
+        bindinput="handleInput" 
+        bindconfirm="sendMessage" 
+        value="{{inputMessage}}" 
+        confirm-type="send"
+      />
+      <image src="https://pic1.imgdb.cn/item/67cd1384066befcec6e19e88.png" class="send-button" bindtap="sendMessage"></image>
+    </view>
+  </view>
+</view>
+
+<button class="btn-container" bindtap="resetInputInfo"> 填写您的成绩 </button>

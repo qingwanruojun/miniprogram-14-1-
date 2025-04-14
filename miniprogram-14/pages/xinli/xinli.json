@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "心晴护航", 
+  "navigationBarBackgroundColor": "#FF5511",
+  "enablePullDownRefresh": true,   
+  "backgroundTextStyle": "light" 
+}

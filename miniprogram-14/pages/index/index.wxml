@@ -1,0 +1,17 @@
+<view class="box">
+  <block wx:for="{{dataList}}" wx:for-index="index" wx:for-item="item" wx:key="item">
+    <!-- 圆点 -->
+    <view class="point">
+        <view class="dot">{{item.date}}</view>
+        <view class="title">{{item.part}}</view>
+    </view>
+    <!-- 容器二 -->
+    <view class="box-line">
+        <!-- 容器三 -->
+        <view class="box-data">
+            <view class="row-info">{{item.content}}</view>
+            <image class="data-img" src="{{item.image}}" mode="widthFix"></image>
+        </view>
+    </view>
+  </block>
+</view>

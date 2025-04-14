@@ -1,0 +1,52 @@
+/* 提示文字样式 */
+page{
+  background-image:url("https://pic1.imgdb.cn/item/67f006aa0ba3d5a1d7ed6c7c.jpg");
+  background-repeat:repeat-y;
+  background-size:cover;
+  background-position:0vh;
+  background-attachment:scroll;
+}
+.notice {
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-top: 30rpx;
+  color: #333;
+}
+
+.module-tip {
+  display: block;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+/* 网格容器 */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 两列布局 */
+  gap: 20px; /* 图片间距 */
+  padding: 0 15px;
+}
+
+/* 图片区块 */
+.img-block {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* 图片文字说明 */
+.img-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+}

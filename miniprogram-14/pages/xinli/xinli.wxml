@@ -1,0 +1,30 @@
+<view class="notice">
+  <text>心理咨询</text>
+</view>
+
+<view class="bottom">
+  <!-- 提示文字 -->
+  <text class="module-tip">请点击对应图片进入对应模块</text>
+</view>
+  <!-- 图片网格 -->
+  <view class="grid-container">
+  <navigator url="/pages/qinzi/qinzi" class="img-block">
+    <image src="https://pic1.imgdb.cn/item/67f002860ba3d5a1d7ed69ec.png" mode="heightFix" />
+    <text class="img-label">亲子关系</text>
+  </navigator>
+
+  <navigator url="/pages/yali/yali" class="img-block">
+    <image src="https://pic1.imgdb.cn/item/67f003c80ba3d5a1d7ed6ad2.png" mode="heightFix" />
+    <text class="img-label">压力管理</text>
+  </navigator>
+
+  <navigator url="/pages/qingchun/qingchun" class="img-block">
+    <image src="https://pic1.imgdb.cn/item/67f0039a0ba3d5a1d7ed6aaf.png" mode="heightFix" />
+    <text class="img-label">青春期心理特点</text>
+  </navigator>
+
+  <navigator url="/pages/AI/AI" class="img-block">
+    <image src="https://pic1.imgdb.cn/item/67f004980ba3d5a1d7ed6b56.png" mode="heightFix" />
+    <text class="img-label">心理AI小助手</text>
+  </navigator>
+</view>

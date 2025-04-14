@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/english/english",
+    "pages/fenxi/fenxi",
+    "pages/xinli/xinli",
+    "pages/qinzi/qinzi",
+    "pages/yali/yali",
+    "pages/qingchun/qingchun",
+    "pages/AI/AI"
+  ],
+  "window": {
+    "navigationBarTitleText": "功能演示",   
+    "navigationBarBackgroundColor": "#FF5511", 
+    "enablePullDownRefresh": false, 
+    "backgroundColor": "#FF8C00",   
+    "backgroundTextStyle": "dark" 
+  },
+  "style": "v2",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "defaultContentBox": true,
+      "tagNameStyleIsolation": "legacy",
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "tabBar": {
+    "selectedColor": "#b4282d",
+    "position": "bottom",
+    "list": [
+        {
+            "pagePath": "pages/index/index",
+            "text": "筑梦启航",
+            "iconPath": "images/tuandui.png",
+            "selectedIconPath": "images/tuandui1.png"
+        },
+        {
+            "pagePath": "pages/english/english",
+            "text": "语通未来",
+            "iconPath": "images/zhineng.png",
+            "selectedIconPath": "images/zhineng1.png"
+        },
+        {
+          "pagePath": "pages/fenxi/fenxi",
+          "text": "学情导航",
+          "iconPath": "images/fenxi.png",
+          "selectedIconPath": "images/fenxi1.png"
+      },
+      {
+        "pagePath": "pages/xinli/xinli",
+        "text": "心晴护航",
+        "iconPath": "images/xinli.png",
+        "selectedIconPath": "images/xinli1.png"
+    }
+    ]
+},
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

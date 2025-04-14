@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "学情导航", 
+  "navigationBarBackgroundColor": "#0066FF",
+  "enablePullDownRefresh": true,   
+  "backgroundTextStyle": "light" 
+}
